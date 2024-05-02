@@ -1,13 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-img{
+img {
     max-width: 100%;
 }
 
-li{
+a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+li {
     list-style: none;
 }

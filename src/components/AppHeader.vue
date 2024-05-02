@@ -1,41 +1,41 @@
 <script>
 export default {
     data() {
-    return {
-      menu: [
-        {
-          title: "CHARACTERS",
-        },
-        {
-          title: "COMICS",
-        },
-        {
-          title: "MOVIES",
-        },
-        {
-          title: "TV",
-        },
-        {
-          title: "GAMES",
-        },
-        {
-          title: "COLLECTIBLES",
-        },
-        {
-          title: "VIDEOS",
-        },
-        {
-          title: "FANS",
-        },
-        {
-          title: "NEWS",
-        },
-        {
-          title: "SHOP",
-        },
-      ],
-    };
-  },
+        return {
+            menu: [
+                {
+                title: "CHARACTERS",
+                },
+                {
+                title: "COMICS",
+                },
+                {
+                title: "MOVIES",
+                },
+                {
+                title: "TV",
+                },
+                {
+                title: "GAMES",
+                },
+                {
+                title: "COLLECTIBLES",
+                },
+                {
+                title: "VIDEOS",
+                },
+                {
+                title: "FANS",
+                },
+                {
+                title: "NEWS",
+                },
+                {
+                title: "SHOP",
+                },
+            ],
+        };
+    },
 }
 </script>
 
@@ -58,41 +58,38 @@ export default {
 
 header{
     @include flex(row,space-between,center);
-    padding: 20px;
-    margin-top: 30px;
-    height: 100px;
+    padding: 10px;
+    height: 150px;
     background-color: $white;
 
-    .header-img{
-    @include flex(row,center,center);
-    flex-grow: 1;
-    img{
-        width: 17%;
-        margin-left: 100px;
+    .header-img {
+        @include flex(row,center,center);
+        flex-grow: 1;
+        
+        img{
+            width: 17%;
+            margin-left: 100px;
+        }
+
     }
 
-}
-.header-nav{
-    @include flex(row,end,center);
-    gap: 20px;
-    width: 60%;
-    margin-right: 300px;
-    li{
-        padding: 40px 0;
-        font-family: sans-serif;
-        font-size: 0.8rem;
-        font-weight: 700;
-        border-bottom: 5px solid transparent;
-        &:hover{
-            border-bottom: 5px solid $blue;
-            color: $blue;
+    .header-nav {
+        @include flex(row,end,center);
+        gap: 20px;
+        width: 60%;
+        margin-right: 300px;
+        
+        li {
+            padding: 66px 0;
+            font-family: sans-serif;
+            font-size: 0.8rem;
+            font-weight: 700;
+            border-bottom: 5px solid transparent;
+            &:hover {
+                border-bottom: 5px solid $blue;
+                color: $blue;
+            }
         }
     }
-    a{
-        text-decoration: none;
-        color: $black;
-    }
 }
-}
-
 </style>
