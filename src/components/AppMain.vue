@@ -151,7 +151,7 @@ section {
     .upper-main {
         @include flex(row,start,center);
         background-color: $black;
-        height: 13vh;
+        height: 15vh;
         padding-left: 200px;
         font-size: 2rem;
     }
@@ -195,7 +195,7 @@ section {
         img {
             width: 500px;
             position: absolute;
-            top: 380px;
+            top: 400px;
             right: 300px;
         }
     }
