@@ -26,7 +26,7 @@ export default {
     
 .footer {
     @include flex(row, space-around, center);
-    background-color: $black;
+    background-color: $dark;
     height: 15vh;
     position: relative;
     z-index: 1;

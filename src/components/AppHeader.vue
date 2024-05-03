@@ -59,7 +59,7 @@ export default {
 header{
     @include flex(row,space-between,center);
     padding: 10px;
-    height: 150px;
+    height: 152px;
     background-color: $white;
 
     .header-img {
