@@ -60,7 +60,6 @@ header{
     @include flex(row,space-between,center);
     padding: 10px;
     height: 152px;
-    background-color: $white;
 
     .header-img {
         @include flex(row,center,center);
@@ -88,7 +87,11 @@ header{
             &:hover {
                 border-bottom: 5px solid $blue;
                 color: $blue;
+                a:hover {
+                    color: $blue;
+                }
             }
+        
         }
     }
 }
